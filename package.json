@@ -1,16 +1,27 @@
 {
   "name": "vampr",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
-  }
+    "chai": "^4.3.6",
+    "mocha": "^4.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJ-WJ/vampr-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SJ-WJ/vampr-js/issues"
+  },
+  "homepage": "https://github.com/SJ-WJ/vampr-js#readme",
+  "description": ""
 }
