@@ -19,6 +19,9 @@ class Vampire {
 
   // Returns the total number of vampires created by that vampire
   get numberOfOffspring() {
+    const check = this.offspring.length
+    // console.log("check", check);
+    return check;
 
   }
 
