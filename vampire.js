@@ -10,6 +10,10 @@ class Vampire {
 
   // Adds the vampire as an offspring of this vampire
   addOffspring(vampire) {
+    // console.log("vampire", vampire);
+    // this.creator = vampire;
+    vampire.creator = this;
+    this.offspring.push(vampire);
 
   }
 
